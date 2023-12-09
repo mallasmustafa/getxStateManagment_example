@@ -5,6 +5,7 @@ import 'package:getx_example/example3.dart';
 import 'package:getx_example/example4.dart';
 import 'package:getx_example/example5.dart';
 import 'package:getx_example/example_controller.dart';
+import 'package:getx_example/image_picker_example.dart';
 
 class Example extends StatelessWidget {
   const Example({super.key});
@@ -43,16 +44,22 @@ class Example extends StatelessWidget {
               ],
             ),
             const Example2(),
-            SizedBox(height: 15),
-            Example3(),
-            SizedBox(height: 15),
-            Example4(),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
+            const Example3(),
+            const SizedBox(height: 15),
+            const Example4(),
+            const SizedBox(height: 15),
             ElevatedButton(
                 onPressed: () {
                   Get.to(Example5());
                 },
-                child: Text("Example 5 click"))
+                child: const Text("Example 5 click")),
+                const SizedBox(height: 15),
+                ElevatedButton(
+                onPressed: () {
+                  Get.to(const ImagePickerExample());
+                },
+                child: const Text("Image picker example"))
           ],
         ),
       ),
