@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:getx_example/example2.dart';
 import 'package:getx_example/example3.dart';
 import 'package:getx_example/example4.dart';
+import 'package:getx_example/example5.dart';
 import 'package:getx_example/example_controller.dart';
 
 class Example extends StatelessWidget {
@@ -45,7 +46,13 @@ class Example extends StatelessWidget {
             SizedBox(height: 15),
             Example3(),
             SizedBox(height: 15),
-            Example4()
+            Example4(),
+            SizedBox(height: 15),
+            ElevatedButton(
+                onPressed: () {
+                  Get.to(Example5());
+                },
+                child: Text("Example 5 click"))
           ],
         ),
       ),

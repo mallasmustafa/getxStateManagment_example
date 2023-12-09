@@ -7,9 +7,19 @@ class ExampleController extends GetxController {
   RxDouble sliderValue = 0.0.obs;
   TextEditingController textController = TextEditingController();
   RxString selectedValue = "mallas".obs;
+  List<String> fruitList = ["orange", "apple", "banana", "mango"].obs;
+  List<dynamic> emptyList = [].obs;
 
   void nameFunction() {
     name.value = textController.text;
     textController.clear();
+  }
+
+  addFavourite(String value) {
+    emptyList.add(value);
+  }
+
+  removeFavourite(String value) {
+    emptyList.remove(value);
   }
 }
