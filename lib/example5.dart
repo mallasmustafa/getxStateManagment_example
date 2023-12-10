@@ -18,7 +18,8 @@ class Example5 extends StatelessWidget {
           return Card(
             child: ListTile(
                 onTap: () {
-                  if (exampleController.emptyList.contains(exampleController.fruitList[index])) {
+                  if (exampleController.emptyList
+                      .contains(exampleController.fruitList[index])) {
                     exampleController
                         .removeFavourite(exampleController.fruitList[index]);
                   } else {

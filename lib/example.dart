@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx_example/login_example.dart';
 import 'package:getx_example/example2.dart';
 import 'package:getx_example/example3.dart';
 import 'package:getx_example/example4.dart';
@@ -54,12 +55,18 @@ class Example extends StatelessWidget {
                   Get.to(Example5());
                 },
                 child: const Text("Example 5 click")),
-                const SizedBox(height: 15),
-                ElevatedButton(
+            const SizedBox(height: 15),
+            ElevatedButton(
                 onPressed: () {
                   Get.to(const ImagePickerExample());
                 },
-                child: const Text("Image picker example"))
+                child: const Text("Image picker example")),
+            const SizedBox(height: 15),
+            ElevatedButton(
+                onPressed: () {
+                  Get.to(const LoginExample());
+                },
+                child: const Text("Login Example with getx"))
           ],
         ),
       ),
