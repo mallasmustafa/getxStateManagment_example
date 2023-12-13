@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/get_core.dart';
-import 'package:getx_example/example_controller.dart';
+import 'package:getx_example/controller/example_controller.dart';
 
 class Example2 extends StatelessWidget {
   const Example2({super.key});

@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_example/image_picker_controller.dart';
+import 'package:getx_example/controller/image_picker_controller.dart';
 
 class ImagePickerExample extends StatelessWidget {
   const ImagePickerExample({super.key});

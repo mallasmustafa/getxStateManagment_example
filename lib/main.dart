@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_example/example.dart';
+import 'package:getx_example/views/example.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:get/get.dart';
-import 'package:getx_example/user_model.dart';
+import 'package:getx_example/models/user_model.dart';
 import 'package:http/http.dart' as http;
 
 class ApiController extends GetxController {

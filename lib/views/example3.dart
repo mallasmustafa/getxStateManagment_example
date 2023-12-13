@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_example/example_controller.dart';
+import 'package:getx_example/controller/example_controller.dart';
 
 class Example3 extends StatelessWidget {
   const Example3({super.key});

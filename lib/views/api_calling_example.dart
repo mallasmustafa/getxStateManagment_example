@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_example/api_controller.dart';
+import 'package:getx_example/controller/api_controller.dart';
 
 class ApiCallingExample extends StatelessWidget {
   const ApiCallingExample({super.key});

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_example/api_calling_example.dart';
-import 'package:getx_example/login_example.dart';
-import 'package:getx_example/example2.dart';
-import 'package:getx_example/example3.dart';
-import 'package:getx_example/example4.dart';
-import 'package:getx_example/example5.dart';
-import 'package:getx_example/example_controller.dart';
-import 'package:getx_example/image_picker_example.dart';
+import 'package:getx_example/views/api_calling_example.dart';
+import 'package:getx_example/views/login_example.dart';
+import 'package:getx_example/views/example2.dart';
+import 'package:getx_example/views/example3.dart';
+import 'package:getx_example/views/example4.dart';
+import 'package:getx_example/views/example5.dart';
+import 'package:getx_example/controller/example_controller.dart';
+import 'package:getx_example/views/image_picker_example.dart';
 
 class Example extends StatelessWidget {
   const Example({super.key});

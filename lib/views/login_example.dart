@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_example/login_controller.dart';
+import 'package:getx_example/controller/login_controller.dart';
 
 class LoginExample extends StatelessWidget {
   const LoginExample({super.key});
