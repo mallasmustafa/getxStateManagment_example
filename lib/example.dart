@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx_example/api_calling_example.dart';
 import 'package:getx_example/login_example.dart';
 import 'package:getx_example/example2.dart';
 import 'package:getx_example/example3.dart';
@@ -66,7 +67,12 @@ class Example extends StatelessWidget {
                 onPressed: () {
                   Get.to(const LoginExample());
                 },
-                child: const Text("Login Example with getx"))
+                child: const Text("Login Example with getx")),
+            ElevatedButton(
+                onPressed: () {
+                  Get.to(const ApiCallingExample());
+                },
+                child: const Text("APi calling example using getx"))
           ],
         ),
       ),
